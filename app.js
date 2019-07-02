@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(express.static(join(__dirname, "public")));
 app.use(
   cors({
-    origin: ["http://localhost:8080", "http://127.0.0.1:8080",'http://192.168.8.100:8080','http://192.168.8.113:8080'],
+    origin: ["http://localhost:8080", "http://127.0.0.1:8080",'http://192.168.8.100:8080','http://192.168.8.113:8080','http://172.20.10.3:8080'],
     credentials: true
   })
 );
